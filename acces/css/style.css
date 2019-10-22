@@ -1,0 +1,260 @@
+body{	
+	margin: 0;
+	line-height: 1.6;
+   	color: #333;
+}
+*, 
+*:before,
+*:after{
+	box-sizing :border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	/*убрал отступ у всех заголовков*/
+}
+.container{
+	width: 90%;
+	max-width: 90%;
+	margin: 0 auto; 
+}
+.intro{
+	width: 100%;
+	height: 750px;
+
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+
+	background: url("../img/bcintro_01.jpg") center no-repeat ;
+	-webkit-background-size:cover;
+	background size: cover;
+}
+.header{
+	width: 100%;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+.intro__logo{
+	display: flex;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+	height: 30px;
+	
+}
+.intro__header{
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+.intro__logo__img{
+	width: 30px;
+	height: 30px;
+	background: url("../img/logointro.png");
+}
+.intro__logo_st{
+	font-family: 'Raleway', sans-serif;
+	width: 150px;
+	line-height: 0;
+}
+.logo__text{
+	
+	font-weight: 100;
+	font-size: 15px;
+	height: 30px;
+	margin-top: -3px;
+	margin-left: 3px;
+}
+.logo__text2{
+	
+	font-weight: 900;
+	font-size: 15px;
+	height: 30px;
+	margin-top: -15px;
+	margin-left: 3px;
+}
+.intro__menu{
+	font-size: 15px;
+	text-align: center;
+	justify-content: center;
+}
+.menu__link{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0  30px;
+	position: relative;
+
+	color:#fff;
+	text-decoration: none;
+}
+.menu__link:hover{
+	color:#000000;
+}
+.menu_link:hover:after{
+	display: block;
+
+}
+.menu__link:hover:after,
+.menu__link.active:after {
+    opacity: 1;
+}
+.button_sign{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 12px;
+	color: #fff;
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px 15px;
+	border:1px solid #fff; 
+	text-transform: uppercase;
+}
+.button_sign:hover{
+	color:#000000;
+	background-color: #fff;
+	border-color: #000;
+	transition: opaciry .9s linear;
+}
+.button_sign:hover:after{
+	display: block;
+}
+.button_sign:hover:after,
+.buttion_sign.active:after {
+    opacity: 1;
+}
+.intro__body{
+	justify-content: space-between;
+	height: 350px;
+	display: flex;
+}
+.intro__text{
+	width: 40%;
+}
+.upintro{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 55px;
+	line-height: 55px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.miniintrotext{
+	width: 120%;
+	font-family: 'Raleway',sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+	font-size: 18px;
+}
+.buyfree{
+	margin-top: 30px;
+	width: 360px;
+	max-width: 360px;
+	height: 55px;
+	overflow:hidden;
+	
+}
+.buy{
+	font-family: 'Roboto', sans-serif;
+	font-weight:  700;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #ffffff;
+	border:1px solid #061e38;
+	padding: 15px 30px;
+	width: 150px;
+	background:#061e38;
+	float:left;
+	border-radius: 5px;
+}
+.free{
+	font-family: 'Roboto', sans-serif;
+	font-weight:  700;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: 	#061e38;
+	border:1px solid #ffffff;
+	padding: 15px 26px;
+	width: 150px;
+	background:#ffffff;
+	float:right;
+	border-radius: 5px;
+}
+.introvideo{
+	width:  430px;
+}
+
+.one_block{
+	height: 75vh;
+}
+.one_block_title{
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 900;
+}
+.one_block_uptext{
+	color: #485a6c;
+	font-size: 45px;
+}
+
+.one_block_miniuptext{
+	color: #c5cfd4;
+	font-size: 25px;
+}
+.one_block_text{
+	font-weight: 900;
+	color:#c5cfd4;
+	font-size: 15px;
+
+}
+.one_block_body{
+	margin-top:100px;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+.titlegoeshere{
+	width: 350px;
+	height: 210px;
+	text-align: center;
+
+}
+.tgsuptext{
+	font-family: 'Raleway',sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.tgstext{
+	font-family: 'Raleway',sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	margin-top: 20px;
+
+}
+.tgsimg1{
+	width: 68px;
+	height: 70px;
+	background: url("../img/1.png");
+	margin:auto;
+
+}
+.tgsimg2{
+	width: 58px;
+	height: 80px;
+	background: url("../img/2.png");
+	margin:auto;
+	
+}
+.tgsimg3{
+	width: 68px;
+	height: 80px;
+	background: url("../img/3.png");
+	margin:auto;
+}
